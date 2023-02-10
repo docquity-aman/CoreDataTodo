@@ -17,6 +17,8 @@
 		5948C7852996197300019F0B /* CoreDataTodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948C7842996197300019F0B /* CoreDataTodoTests.swift */; };
 		5948C78F2996197300019F0B /* CoreDataTodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948C78E2996197300019F0B /* CoreDataTodoUITests.swift */; };
 		5948C7912996197300019F0B /* CoreDataTodoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948C7902996197300019F0B /* CoreDataTodoUITestsLaunchTests.swift */; };
+		5948C7A529961E3400019F0B /* TodoListItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948C7A329961E3400019F0B /* TodoListItem+CoreDataClass.swift */; };
+		5948C7A629961E3400019F0B /* TodoListItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948C7A429961E3400019F0B /* TodoListItem+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		5948C78A2996197300019F0B /* CoreDataTodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataTodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5948C78E2996197300019F0B /* CoreDataTodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTodoUITests.swift; sourceTree = "<group>"; };
 		5948C7902996197300019F0B /* CoreDataTodoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTodoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5948C7A329961E3400019F0B /* TodoListItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TodoListItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5948C7A429961E3400019F0B /* TodoListItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TodoListItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		5948C75E2996197000019F0B = {
 			isa = PBXGroup;
 			children = (
+				5948C7A329961E3400019F0B /* TodoListItem+CoreDataClass.swift */,
+				5948C7A429961E3400019F0B /* TodoListItem+CoreDataProperties.swift */,
 				5948C7692996197000019F0B /* CoreDataTodo */,
 				5948C7832996197300019F0B /* CoreDataTodoTests */,
 				5948C78D2996197300019F0B /* CoreDataTodoUITests */,
@@ -263,7 +269,9 @@
 			files = (
 				5948C76F2996197000019F0B /* ViewController.swift in Sources */,
 				5948C76B2996197000019F0B /* AppDelegate.swift in Sources */,
+				5948C7A529961E3400019F0B /* TodoListItem+CoreDataClass.swift in Sources */,
 				5948C7752996197000019F0B /* CoreDataTodo.xcdatamodeld in Sources */,
+				5948C7A629961E3400019F0B /* TodoListItem+CoreDataProperties.swift in Sources */,
 				5948C76D2996197000019F0B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
